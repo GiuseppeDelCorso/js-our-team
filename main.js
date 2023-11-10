@@ -8,8 +8,12 @@ const membri = [
         
 
     }
-
-
-
 ]
-console.log(membri.nome)
+
+for (let i = 0; i < membri.length; i++) {
+    
+   console.log(`Nome: ${membri[i].nome} Ruolo: ${membri[i].ruorlo} Eta: ${membri[i].immagine}`);
+    
+    
+
+}
